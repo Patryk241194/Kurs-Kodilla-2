@@ -31,6 +31,7 @@ public class Calculator {
         Calculator calculator = new Calculator();
         System.out.println(calculator.add(2,5));
         System.out.println(calculator.subtract(5,2));
+        calculator.doJob();
 
     }
 }

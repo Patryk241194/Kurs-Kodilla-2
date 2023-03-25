@@ -25,12 +25,17 @@ public class Calculator {
         return a / b;
     }
 
+    public void doJob() {
+        System.out.println("do");
+    }
+
 
     public static void main(String[] args) {
 
         Calculator calculator = new Calculator();
         System.out.println(calculator.add(2,5));
         System.out.println(calculator.subtract(5,2));
+        calculator.doJob();
         System.out.println(calculator.add(4,5));
         System.out.println(calculator.subtract(2,2));
         System.out.println(calculator.add(1,3));

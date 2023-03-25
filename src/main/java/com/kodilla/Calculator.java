@@ -10,6 +10,10 @@ public class Calculator {
         return a - b;
     }
 
+    public void doSomething() {
+        System.out.println();
+    }
+
     public int multiply(int a, int b) {
         return a * b;
     }

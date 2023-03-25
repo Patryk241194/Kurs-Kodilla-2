@@ -21,6 +21,10 @@ public class Calculator {
         return a / b;
     }
 
+    public void doJob() {
+        System.out.println("do");
+    }
+
 
     public static void main(String[] args) {
 

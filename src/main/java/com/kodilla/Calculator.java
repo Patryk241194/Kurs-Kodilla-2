@@ -31,6 +31,14 @@ public class Calculator {
         Calculator calculator = new Calculator();
         System.out.println(calculator.add(2,5));
         System.out.println(calculator.subtract(5,2));
+        System.out.println(calculator.add(4,5));
+        System.out.println(calculator.subtract(2,2));
+        System.out.println(calculator.add(1,3));
+        System.out.println(calculator.subtract(5,2));
+        System.out.println(calculator.add(5,2));
+        System.out.println(calculator.subtract(6,3));
+        System.out.println(calculator.add(1,2));
+        System.out.println(calculator.subtract(15,1));
 
     }
 }
